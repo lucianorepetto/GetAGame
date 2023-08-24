@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/GetAGame/static/js/main.da96de8a.js",
+    "main.js": "/GetAGame/static/js/main.9b7cdfdd.js",
     "static/js/496.548521ac.chunk.js": "/GetAGame/static/js/496.548521ac.chunk.js",
     "index.html": "/GetAGame/index.html",
-    "main.da96de8a.js.map": "/GetAGame/static/js/main.da96de8a.js.map",
+    "main.9b7cdfdd.js.map": "/GetAGame/static/js/main.9b7cdfdd.js.map",
     "496.548521ac.chunk.js.map": "/GetAGame/static/js/496.548521ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.da96de8a.js"
+    "static/js/main.9b7cdfdd.js"
   ]
 }
