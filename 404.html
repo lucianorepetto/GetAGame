@@ -1,39 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Single Page Apps for GitHub Pages</title>
+    <script type="text/javascript">
+      var pathSegmentsToKeep = 0;
+      const pathname = 'GetAGame'
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/GetAGame/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
 
-<head>
-  <meta charset="utf-8" />
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"/>
-  <link href='assets/favicon/favicon-32x32' rel='shortcut icon' type='image/x-png'/>
-
-  <meta name="theme-color" content="#000000" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Using Google Font -->
-  <link rel="preconnect" href="https://fonts.gstatic.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-
-  <!-- Using Local Font -->
-  <!-- <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/fonts/index.css" /> -->
-
-  <!-- Css simplebar -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplebar/5.3.9/simplebar.min.css" />
-
-  <link crossorigin='anonymous' href='https://pro.fontawesome.com/releases/v5.10.0/css/all.css' integrity='sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p' rel='stylesheet'/>
-
-  <title>Get·A Game</title>
-  <meta name="description"
-    content="Creating unique and innovative gaming experiences for players of all ages and abilities. We are a group of indie game developers committed to creativity and excellence in game design. Discover what we can do at Get·A Game today!" />
-  <meta name="keywords" content="indie game developers, gaming experiences, game design, unique games, innovative games, creativity games" />
-  <meta name="author" content="Get·A Game" />
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
-
+    </script>
+  </head>
+  <body>
+  </body>
 </html>
